@@ -11576,3 +11576,8 @@ header.masthead h1, header.masthead .h1 {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* Invert the color to black */
+}
