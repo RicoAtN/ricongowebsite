@@ -16,6 +16,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static(__dirname + '/public'));
 app.use("/static", express.static('./static/'));
 
+
 // Render pages
 app.get("/", function (req, res) {
   res.render("home");
@@ -31,6 +32,10 @@ app.get("/portfolio", function (req, res) {
 
 app.get("/services", function (req, res) {
   res.render("services");
+});
+
+app.get("/contact", function (req, res) {
+  res.render("contact");
 });
 
 // script for navbar and portfolio

@@ -11579,5 +11579,5 @@ header.masthead h1, header.masthead .h1 {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  filter: invert(100%); /* Invert the color to black */
+  opacity: 0; /* Set opacity to 0% */
 }
